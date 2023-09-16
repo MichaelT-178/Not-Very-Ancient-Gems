@@ -19,8 +19,7 @@ class Car
     def get_age
         2023 - year_made.to_i
     end 
-
-
+    
     #Return not necessary
     def to_s
         "Color: #{@color} Year made: #{@year_made} Maker: #{@maker}"
