@@ -181,10 +181,3 @@ puts "\"Hello\" and \"goodbye\" are the same when considering case (Exp: false).
 puts "\"Hello\" and \"goodbye\" are NOT the same when ignoring case (Exp: true). Is #{str1.casecmp(str3) == 1}\n\n"
 puts "\"Hello\" and \"hello\" are the same when ignoring downcase (Exp: true). Is #{str1.downcase == str2.downcase}"
 puts "\"Hello\" and \"hello\" are the same when ignoring upcase (Exp: true). Is #{str1.upcase == str2.upcase}"
-
-
-
-
-
-
-
